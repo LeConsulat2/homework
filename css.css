@@ -1,0 +1,26 @@
+form {
+    max-width: 300px;
+    margin-left: 20px;
+  }
+  
+  .label-input-container {
+    display: block;
+    margin-bottom: 15px; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+  }
+  
+  
+  .scale-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10
+  }

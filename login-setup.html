@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Set Up</title>
+  <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+  <h1>Create An Account</h1>
+  <form action="/submit_form" method="post">
+
+
+    <form action="/submit_form" method="post">
+
+      <label for="firstName">First Name:</label>
+      <input id="firstName" type="text" placeholder="First Name" required>
+
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" type="text" placeholder="Last Name" required>
+
+      <label for="email">Email:</label>
+      <input id="email" type="email" placeholder="Email" required>
+
+      <label for="username">Username:</label>
+      <input id="username" type="text" placeholder="Username" required>
+
+      <label for="password">Password:</label>
+      <input id="password" type="password" minlength="10" placeholder="Password" required>
+
+
+
+      <h4>How happy are you?</h4>
+      <div class="scale-container">
+        <input type="range" class="slider" id="happyScale">
+      </div>
+      <div class="scale-labels">
+        <span>|</span>
+        <span>|</span>
+        <span>|</span>
+        <span>|</span>
+        <span>|</span>
+        <span>|</span>
+        <span>|</span>
+        <span>|</span>
+      </div>
+
+      <div class="color-chooser">
+        <label for="color">Choose Color:</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+      </div>
+
+      <input type="submit" value="Create Account">
+
+    </form>
+
+</body>
+
+</html>
